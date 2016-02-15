@@ -53,3 +53,11 @@ footer {
 our-side-bar {
   width: inherit;
 }
+
+[double-click] {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer; }
+
+tr[double-click]:hover {
+  background-color: #444; }
